@@ -70,27 +70,27 @@
 
             <div class="item-featured">
               <h3 class="tilde">Anxiety</h3>
-              <p>Movement can reduce cortisol in your body which assists with stress and anxiety.</p>
+              <p>Movement can lower cortisol in your body which reduces stress and anxiety.</p>
             </div><!-- #end item-featured -->
 
             <div class="item-featured">
               <h3 class="tilde">Strength</h3>
-              <p>As you grow older, keeping strong is important. Pilates is a low-impact exercise to achieve this.</p>
+              <p>Pilates is a low-impact exercise to keep your body strong.</p>
             </div><!-- #end item-featured -->
 
              <div class="item-featured">
               <h3 class="tilde">Reduced Health Risks</h3>
-              <p>With improved mental and physical health, we reduce the risk of long-term health risks caused by a sedentary lifestyle.</p>
+              <p>With improved mental and physical health, pilates can reduce the risk of long-term health risks caused by a sedentary lifestyle.</p>
             </div><!-- #end item-featured -->
 
              <div class="item-featured">
               <h3 class="tilde">Better Balance</h3>
-              <p>Keeping your body strong and aligned will assist with balance and posture.</p>
+              <p>Keeping your body strong, stable and aligned will assist with balance and posture.</p>
             </div><!-- #end item-featured -->
 
              <div class="item-featured">
               <h3 class="tilde">Movement</h3>
-              <p>We need to keep moving for a health life. We can achieve this by keeping active in pilates.</p>
+              <p>Movement is key to a health life. Keeping with a pilates schedule will assist with this.</p>
             </div><!-- #end item-featured -->
 
           </div><!-- #end grid -->
@@ -98,7 +98,6 @@
 
       </section><!-- #end section-featured-items -->
 
-      <a name="timetable"></a>
        <section class="section-p section-quote">
 
         <div class="container">
@@ -135,6 +134,11 @@
                 </div><!-- #end item-featured -->
 
                 <div class="price-list">
+                  <h4>Unlimited Classes</h4>
+                  <p>Best value if you're attending 3+ classes per week (min. 3 month contract)</p>
+                </div><!-- #end item-featured -->
+
+                <div class="price-list">
                   <h4>Free Class</h4>
                   <p>For all new starters, first class is free!</p>
                 </div><!-- #end item-featured -->
@@ -143,6 +147,8 @@
             </div><!-- #end quote-featured -->
 
             <div class="quote-featured block-content">
+
+              <a name="timetable"></a>
 
               <h2 class="block-title"><span>Timetable</span></h2>
 
