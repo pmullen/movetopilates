@@ -64,17 +64,17 @@
 
           <div class="grid grid-3 list-benefits">
             <div class="item-featured">
-              <h3 class="tilde">Community</h3>
+              <h3 class="tilde">Local Community</h3>
               <p>Being part of a local pilates community can assist with both physical and mental health.</p>
             </div><!-- #end item-featured -->
 
             <div class="item-featured">
-              <h3 class="tilde">Anxiety</h3>
+              <h3 class="tilde">Improve Mental Wellbeing</h3>
               <p>Movement can lower cortisol in your body which reduces stress and anxiety.</p>
             </div><!-- #end item-featured -->
 
             <div class="item-featured">
-              <h3 class="tilde">Strength</h3>
+              <h3 class="tilde">Greater Strength</h3>
               <p>Pilates is a low-impact exercise to keep your body strong.</p>
             </div><!-- #end item-featured -->
 
@@ -89,7 +89,7 @@
             </div><!-- #end item-featured -->
 
              <div class="item-featured">
-              <h3 class="tilde">Movement</h3>
+              <h3 class="tilde">Improved Movement</h3>
               <p>Movement is key to a health life. Keeping with a pilates schedule will assist with this.</p>
             </div><!-- #end item-featured -->
 
