@@ -23,6 +23,14 @@
     grid-template-columns: 1fr;
     grid-gap: 40px;
   }
+
+  .grid-order-1 {
+    order: 1;
+  }
+
+  .grid-order-2 {
+    order: 2;
+  }
 }
 
 .flex {

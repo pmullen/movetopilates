@@ -20,13 +20,13 @@
       
           <div class="grid grid-2">
 
-            <div class="block-content">
+            <div class="block-content grid-order-2">
               <h2>Starting out in Pilates</h2>
 
               <p>Our ambition at Move to Pilates is to create an enviroment to practice pilates regardless of experience or fitness levels. We understand the immense health benefits of pilates and want to share that with you. If you're still unsure, we recommend booking in a time to chat or download our <a href="#">Getting Started with Pilates</a> guide to learn more.</p>
             </div><!-- #end block-content -->
 
-            <div class="block-media">
+            <div class="block-media grid-order-1">
               <img src="~/assets/img/pilates-03.jpg" class="image-plus image-plus-right image-shadow" />
             </div><!-- #end block-media -->
           </div><!-- #end grid -->
@@ -41,15 +41,15 @@
       
           <div class="grid grid-2">
 
-            <div class="block-media">
+            <div class="block-media grid-order-1">
               <img src="~/assets/img/pilates-05.jpg" class="image-plus image-plus-left image-shadow" />
             </div><!-- #end block-media -->
 
-            <div class="block-content">
+            <div class="block-content grid-order-2">
               <h2>Pregnancy, Postnatal, Mums and Bubs Classes</h2>
 
               <p>Our classes are tailored to celebrate your transition into motherhood and beyond. They're designed to help you stay fit and healthy during pregnancy while also providing an enviroment to connect with women on a similar journery.</p>
-              <p><a href="#">View our timetable for classes below</a></p>
+              <p><a href="#timetable">View our timetable for classes below</a></p>
             </div><!-- #end block-content -->
 
           </div><!-- #end grid -->
@@ -62,7 +62,7 @@
 
         <div class="container">
 
-          <div class="grid grid-3 grid-gap-60">
+          <div class="grid grid-3 list-benefits">
             <div class="item-featured">
               <h3 class="tilde">Community</h3>
               <p>Being part of a local pilates community can assist with both physical and mental health.</p>
@@ -277,6 +277,10 @@
     strong {
       color: #8892af;
     }
+
+    @media only screen and (max-width: 960px) {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   .timetable {
@@ -308,6 +312,12 @@
   .container-form {
     .block-content {
       margin-top: 0;
+    }
+  }
+
+  .list-benefits {
+    @media only screen and (max-width: 960px) {
+      grid-template-columns: 1fr 1fr;
     }
   }
 </style>

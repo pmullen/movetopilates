@@ -10,6 +10,7 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .ir {
@@ -134,7 +135,7 @@ html {
   font-weight: 600;
 
   @media only screen and (max-width: 960px) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 
