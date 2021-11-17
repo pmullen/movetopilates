@@ -86,7 +86,8 @@ a {
 a:not(.button):not(.site-logo) {
   &:hover,
   &:focus {
-    border-bottom: 1px solid var(--secondary-color);
+    color: darken(#94BEB4, 10%);
+    border-bottom: 1px solid darken(#94BEB4, 10%);
     padding-bottom: 1px;
     text-decoration: none;
   }
