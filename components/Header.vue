@@ -53,7 +53,12 @@
     margin: auto 0 auto auto;
 
     @media only screen and (max-width: 600px) {
-      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      border-radius: 0;
+      z-index: 1;
     }
   }
 </style>
