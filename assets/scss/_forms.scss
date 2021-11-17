@@ -1,0 +1,26 @@
+label {
+  display: block;
+}
+
+input,
+textarea { 
+  display: block;
+  border-radius: 3px;
+  border: none;
+  color: #000 !important;
+  font-size: 1rem;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.form {
+  button {
+    margin-top: 1rem;
+  }
+}

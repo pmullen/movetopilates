@@ -6,13 +6,14 @@
         
           <div class="site-header-content">
             <h1>​​We understand everyone is different. We cater for all experience levels with dedicated classes for pregnancy and postnatal</h1>
-            <p><a href="#request-demo" class="button button-header">Learn more</a></p>
+            <p><a href="#get-started" class="button button-header">Learn more</a></p>
           </div><!-- #end site-header-content -->
  
         </div><!-- #end container -->
 
       </div><!-- #end site-banner -->
 
+      <a name="get-started"></a>
       <section class="section">
 
         <div class="container-m">
@@ -232,16 +233,36 @@
 
       <section class="section-p section-dark">
 
-        <div class="container container-m">
+        <div class="container-m container-form">
           <div class="grid grid-2">
 
             <div class="block-content">
               <h2>Contact Us</h2>
-              <p>We're always available to chat. If you have any questions regarding our classes or studio, please get in touch.</p>
+              <p>We're always available to chat. If you have any questions regarding our classes or studio, please get in touch using the adjacent form.</p>
             </div><!-- #end block-content -->
 
             <div class="block-content">
-            
+              <form name="contact" method="POST" data-netlify="true" class="form">
+                <p>
+                  <label>Name</label>  
+                  <input type="text" name="name" /> 
+                </p>
+                <p>
+                  <label>Email</label>
+                  <input type="email" name="email" />
+                </p>
+                <p>
+                  <label>Phone</label>
+                  <input type="phone" name="phone" />
+                </p>
+                <p>
+                  <label>Message</label>
+                  <textarea name="message"></textarea>
+                </p>
+                <p>
+                  <button type="submit">Submit</button>
+                </p>
+              </form>
             </div><!-- #end block-content -->
 
           </div><!-- #end grid -->
@@ -282,5 +303,11 @@
 
   h4 {
     margin-bottom: 1rem;
+  }
+
+  .container-form {
+    .block-content {
+      margin-top: 0;
+    }
   }
 </style>

@@ -44,8 +44,8 @@
 
   @media only screen and (max-width: 600px) {
     .site-logo {
-      height: 20px;
-      width: 100px;
+      height: 40px;
+      width: 105px;
     }
   }
 

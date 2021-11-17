@@ -1,11 +1,14 @@
-.button {
+.button,
+button {
   background: var(--secondary-color);
   border-radius: 100px; 
+  border: none;
   color: white;
   height: 50px;
   display: inline-block;
   font-family: 'Montserrat', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;  
   font-weight: 600;
+  font-size: 1rem;
   line-height: 50px;
   padding: 0 2rem; 
   text-align: center;
