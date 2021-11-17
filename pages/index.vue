@@ -27,7 +27,7 @@
             </div><!-- #end block-content -->
 
             <div class="block-media grid-order-1">
-              <img src="~/assets/img/pilates-03.jpg" class="image-plus image-plus-right image-shadow" />
+              <img src="~/assets/img/pilates-06.jpg" class="image-plus image-plus-right" />
             </div><!-- #end block-media -->
           </div><!-- #end grid -->
 
@@ -42,7 +42,7 @@
           <div class="grid grid-2">
 
             <div class="block-media grid-order-1">
-              <img src="~/assets/img/pilates-05.jpg" class="image-plus image-plus-left image-shadow" />
+              <img src="~/assets/img/pilates-05.jpg" class="image-plus image-plus-left" />
             </div><!-- #end block-media -->
 
             <div class="block-content grid-order-2">
