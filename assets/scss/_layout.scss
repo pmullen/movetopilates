@@ -1,0 +1,183 @@
+/* Global Layout
+-------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.ir {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}
+
+/* Containers & Sections
+-------------------------------------------------------------- */
+.container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container-m {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-nav {
+    margin: 0 1rem;
+  }
+}
+
+.section {
+  margin: 5rem auto;
+  position: relative;
+}
+
+@media only screen and (max-width: 960px) {
+  .section {
+    margin: 3rem auto;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  section:not(.section-cta) {
+    .section-title {
+      text-align: center;
+      top: -1.25rem;
+      position: relative;
+    }
+
+    .section-title ~ div {
+      top: -1.25rem;
+    }
+  }
+}
+
+.section-p {
+  padding: 5rem 0;
+  position: relative;
+}
+
+@media only screen and (max-width: 960px) {
+  .section-p {
+    padding: 3rem 0;
+  }
+}
+
+.section-dark {
+  background: var(--primary-color);
+}
+
+.section-light {
+  background: var(--light-color);
+}
+
+.site-footer {
+  background: var(--secondary-color);
+  color: white;
+  min-height: 100px;
+  padding: 2.25rem 0;
+  text-align: center;
+}
+
+.section-quote {
+  background: url('../img/bg-quote.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Headers & Banners
+-------------------------------------------------------------- */
+.site-banner {
+  background-color: #4f5a7a;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236a779c' fill-opacity='0.45'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  position: relative;
+}
+
+.site-header-content {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+  padding: 8rem 0 6rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 960px) {
+  .site-header-content {
+    max-width: 100%;
+    padding: 3rem 0;
+  }
+}
+
+.site-header-content h1 {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 600;
+
+  @media only screen and (max-width: 960px) {
+    font-size: 1.8rem;
+  }
+}
+
+.site-header-content h2 {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+
+
+/* Content & Media Blocks
+-------------------------------------------------------------- */
+.block-content {
+  margin: auto;
+  width: 100%;
+}
+
+.block-media {
+  margin: auto;
+}
+
+.form-wrapper {
+  background: darken(#1e365e, 4%);
+  border-radius: 5px;
+  padding: 1.75rem 2.25rem;
+}
+
+.quote-featured {
+  background: rgba(255,255,255,0.95);
+  margin: 3rem auto;
+  padding: 3rem;
+  position: relative;
+}
+
+@media only screen and (max-width: 960px) {
+  .quote-featured {
+    margin: 0;
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,27 @@
+.button {
+  background: var(--secondary-color);
+  border-radius: 100px; 
+  color: white;
+  height: 50px;
+  display: inline-block;
+  font-family: 'Montserrat', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;  
+  font-weight: 600;
+  line-height: 50px;
+  padding: 0 2rem; 
+  text-align: center;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    background: lighten(#94BEB4, 10%);
+  }
+} 
+
+.button-header {
+  margin-top: 1.5rem;
+}
+
+.button-secondary {
+  background: #D3DCEA;
+  color: #1e365e;
+}
