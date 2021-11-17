@@ -152,11 +152,11 @@
 
                   <div class="timetable">
                     <div class="timetable-time">9:00am</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">11:00am</div>
                     <div class="timetable-class">Mums & Bubs</div>
                     <div class="timetable-time">6:30pm</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">7:30pm</div>
                     <div class="timetable-class">Pregnancy</div>
                   </div><!-- #end timetable -->
@@ -167,11 +167,11 @@
 
                   <div class="timetable">
                     <div class="timetable-time">9:00am</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">11:00am</div>
                     <div class="timetable-class">Mums & Bubs</div>
                     <div class="timetable-time">6:30pm</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">7:30pm</div>
                     <div class="timetable-class">Pregnancy</div>
                   </div><!-- #end timetable -->
@@ -182,11 +182,11 @@
                   
                   <div class="timetable">
                     <div class="timetable-time">9:00am</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">11:00am</div>
                     <div class="timetable-class">Mums & Bubs</div>
                     <div class="timetable-time">6:30pm</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">7:30pm</div>
                     <div class="timetable-class">Pregnancy</div>
                   </div><!-- #end timetable -->
@@ -197,11 +197,11 @@
                   
                   <div class="timetable">
                     <div class="timetable-time">9:00am</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">11:00am</div>
                     <div class="timetable-class">Mums & Bubs</div>
                     <div class="timetable-time">6:30pm</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">7:30pm</div>
                     <div class="timetable-class">Pregnancy</div>
                   </div><!-- #end timetable -->
@@ -212,11 +212,11 @@
                   
                   <div class="timetable">
                     <div class="timetable-time">9:00am</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">11:00am</div>
                     <div class="timetable-class">Mums & Bubs</div>
                     <div class="timetable-time">6:30pm</div>
-                    <div class="timetable-class">Pilates for All</div>
+                    <div class="timetable-class">Pilates for all</div>
                     <div class="timetable-time">7:30pm</div>
                     <div class="timetable-class">Pregnancy</div>
                   </div><!-- #end timetable -->
