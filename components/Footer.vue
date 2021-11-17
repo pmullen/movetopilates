@@ -1,7 +1,7 @@
 <template>
   <footer class="site-footer section-footer">
     <div class="container container-m">
-      <p>&copy; Move to Pilates - A studio for everyone</p>
+      <p>&copy; Move to Pilates - Studio for everyone</p>
     </div><!-- #end container -->
   </footer><!-- #end site-footer -->
 </template>
