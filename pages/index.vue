@@ -112,25 +112,25 @@
               <div class="grid">
                 <div class="price-list">
                   <h4>Casual</h4>
-                  <p>Complete flexibility, attend when it's right for you.</p>
+                  <p>Complete flexibility, attend when it's right for you. Bring a friend for free</p>
                   <p><strong>$25.00 per class</strong></p>
                 </div><!-- #end item-featured -->
 
                 <div class="price-list">
-                  <h4>5 Pack</h4>
-                  <p>Purchase a 5 pack to secure a x% discount per class</p>
+                  <h4>5 Class Pass</h4>
+                  <p>Purchase a 5 class pass to secure a 16% discount from single class</p>
                   <p><strong>$105.00 per pack</strong></p>
                 </div><!-- #end item-featured -->
 
                 <div class="price-list">
-                  <h4>10 Pack</h4>
-                  <p>Purchase a 10 pack to secure a x% discount per class</p>
+                  <h4 class="popular">10 Class Pass</h4>
+                  <p>Purchase a 10 class pass to secure a 23% discount from single class</p>
                   <p><strong>$190.00 per pack</strong></p>
                 </div><!-- #end item-featured -->
 
                 <div class="price-list">
-                  <h4>20 Pack</h4>
-                  <p>Purchase a 20 pack to secure a x% discount per class</p>
+                  <h4>20 Class Pass</h4>
+                  <p>Purchase a 10 class pass to secure a 32% discount from single class</p>
                   <p><strong>$340.00 per pack</strong></p>
                 </div><!-- #end item-featured -->
 
@@ -318,6 +318,21 @@
   .list-benefits {
     @media only screen and (max-width: 960px) {
       grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .popular {
+    &::after {
+      background: var(--secondary-color);
+      border-radius: 20px;
+      color: white;
+      content: 'POPULAR';
+      font-size: 10px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      margin-left: 1rem;
+      padding: 0.25rem 0.5rem;
+      vertical-align: middle;
     }
   }
 </style>
