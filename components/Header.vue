@@ -7,7 +7,7 @@
             Move to Pilates
           </NuxtLink>
 
-          <a href="#timetable" class="button button-nav button-demo">Timetable</a>
+          <a href="https://go.appointmentcore.com/book/LhRiN2" class="button button-nav button-demo">Book a Call</a>
         </div><!-- #end grid -->
       </div><!-- #end container -->
     </header><!-- #end site-header -->

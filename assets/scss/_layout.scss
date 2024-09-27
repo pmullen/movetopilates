@@ -64,6 +64,7 @@ html {
       text-align: center;
       top: -1.25rem;
       position: relative;
+      margin-bottom: 2.5rem;
     }
 
     .section-title ~ div {
@@ -91,8 +92,13 @@ html {
   background: var(--light-color);
 }
 
+.section-pattern {
+  background-color: #4f5a7a;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236a779c' fill-opacity='0.45'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
 .site-footer {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   color: white;
   min-height: 100px;
   padding: 2.25rem 0;
@@ -108,15 +114,25 @@ html {
 /* Headers & Banners
 -------------------------------------------------------------- */
 .site-banner {
-  background-color: #4f5a7a;
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236a779c' fill-opacity='0.45'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  //background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236a779c' fill-opacity='0.45'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url(~/assets/img/bg-header.webp);
+  background-position: right;
+  background-size: cover;
   position: relative;
+
+  &:before {
+    background-color: #000e3699;
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 }
 
 .site-header-content {
-  margin: 0 auto;
-  max-width: 80%;
-  text-align: center;
+  margin: 0 auto auto 0;
+  max-width: 50%;
+  text-align: left;
   padding: 8rem 0 6rem 0;
   position: relative;
   z-index: 1;
@@ -177,4 +193,9 @@ html {
     margin: 0;
     padding: 2rem;
   }
+}
+
+.isolated-cta {
+  text-align: center;
+  margin: 3rem 0 0 0;
 }
