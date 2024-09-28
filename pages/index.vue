@@ -160,6 +160,11 @@
   .image-profile {
     min-width: 425px;
     max-width: 425px;
+
+    @media only screen and (max-width: 960px) {
+      max-width: 100%;
+      min-width: auto;
+    }
   }
 
   .button-cta {
