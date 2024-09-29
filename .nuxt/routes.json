@@ -1,8 +1,16 @@
 [
   {
+    "name": "terms-conditions",
+    "path": "/terms-conditions",
+    "component": "/Users/pete/Documents/www/movetopilates.studio/pages/terms-conditions.vue",
+    "chunkName": "pages/terms-conditions",
+    "_name": "_273f1088"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_7af720c4"
   }
 ]
