@@ -1,4 +1,4 @@
-input:not([type="radio"]),
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
 textarea { 
   display: block;
   border: 1px solid rgb(202, 202, 202);
