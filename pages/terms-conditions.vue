@@ -12,7 +12,7 @@
 
     </div><!-- #end site-banner -->
 
-    <section class="section-p section-light">
+    <section class="section-p">
 
       <div class="container-m">
 

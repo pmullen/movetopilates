@@ -1,12 +1,12 @@
-label {
-  display: block;
-}
-
-input,
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
 textarea { 
   display: block;
+  border: 1px solid rgb(202, 202, 202);
   border-radius: 3px;
-  border: none;
   color: #000 !important;
   font-size: 1rem;
   height: 2.5rem;
@@ -15,14 +15,20 @@ textarea {
   width: 100%;
 }
 
+
+
 textarea {
   min-height: 150px;
   font-family: 'Roboto', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 1rem;
 }
 
-.form {
+form {
   button {
     margin-top: 1rem;
+  }
+
+  p {
+    margin: 10px 0 2rem 0;
   }
 }
