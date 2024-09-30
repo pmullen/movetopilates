@@ -1,8 +1,4 @@
-input[type="text"],
-input[type="date"],
-input[type="number"],
-input[type="tel"],
-input[type="email"],
+input:not([type="radio"]),
 textarea { 
   display: block;
   border: 1px solid rgb(202, 202, 202);
