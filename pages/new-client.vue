@@ -18,7 +18,7 @@
 
           <main class="main-content">
 
-            <form netlify>
+            <form name="client-intake" netlify>
               <p><label for="firstName">First Name:</label>
               <input type="text" id="firstName" name="firstName" required></p>
               <p><label for="lastName">Last Name:</label>
@@ -44,14 +44,14 @@
               <input type="radio" id="pregnantNo" name="pregnancy" value="no">
               <label for="pregnantNo">No</label></p>
               <p><label for="pregnancyWeeks">If yes, how many weeks?</label>
-              <input type="number" id="pregnancyWeeks" name="pregnancyWeeks" disabled></p>
+              <input type="number" id="pregnancyWeeks" name="pregnancyWeeks"></p>
               <label for="postNatal">Are you post-natal?</label> <br />
               <p><input type="radio" id="postNatalYes" name="postNatal" value="yes">
               <label for="postNatalYes">Yes &nbsp;&nbsp;</label>
               <input type="radio" id="postNatalNo" name="postNatal" value="no">
               <label for="postNatalNo">No</label></p>
               <p><label for="postNatalWeeks">If yes, how many weeks?</label>
-              <input type="number" id="postNatalWeeks" name="postNatalWeeks" disabled></p>
+              <input type="number" id="postNatalWeeks" name="postNatalWeeks"></p>
 
               <h3>Client Daily Movement</h3>
               <p><label for="physicalActivity">Current level of physical activity:</label>
