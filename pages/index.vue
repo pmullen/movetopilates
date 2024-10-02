@@ -5,12 +5,12 @@
         <div class="container">
         
           <div class="site-header-content">
-            <h1>Beat Feeling Run Down<br />
-                15 Minute Workout Online<br />
-                6 Weeks to Reclaim Your Body
+            <h1>Reclaim your body<br />
+              Live 15-minute workout at home<br />
+                <i>With my 6 weeks <span>Energise and Revitalise</span> Challenge</i>
             </h1>
 
-            <p><a href="https://go.appointmentcore.com/book/LhRiN2" class="button button-header">Book a Call</a></p>
+            <p><NuxtLink to="/appointment" class="button button-header">Book a free 15-minute chat &nbsp; &raquo;</NuxtLink></p>
           </div><!-- #end site-header-content -->
  
         </div><!-- #end container -->
@@ -56,7 +56,7 @@
 
           </div><!-- #end grid -->
 
-          <p class="isolated-cta"><a href="https://go.appointmentcore.com/book/LhRiN2" class="button button-header">Book a Call</a></p>
+          <p class="isolated-cta"><NuxtLink to="/appointment" class="button button-header">Book a free 15-minute chat &nbsp; &raquo;</NuxtLink></p>
 
         </div><!-- #end container -->
 
@@ -75,9 +75,9 @@
 
               <p>After years of teaching Pilates, I realized that mums like us need a solution that actually fits into our lives. That’s why I’ve created a home-based exercise program that’s quick, effective, and designed to help you reclaim your body – no matter how hectic things get. It's all about prioritizing yourself, even with interruptions along the way.</p>
 
-              <p>Book a call with me to see if my program fits into your busy schedule, and together, we can work on getting you back to feeling strong, energized, and ready to take on whatever life throws your way!</p>
+              <p>Book a free 15-minute chat &nbsp; &raquo; with me to see if my program fits into your busy schedule, and together, we can work on getting you back to feeling strong, energized, and ready to take on whatever life throws your way!</p>
 
-              <p><a href="https://go.appointmentcore.com/book/LhRiN2" class="button button-cta">Book a Call</a></p>
+              <p><NuxtLink to="/appointment" class="button button-cta">Book a free 15-minute chat &nbsp; &raquo;</NuxtLink></p>
 
             </div><!-- #end block-content -->
 

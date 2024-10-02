@@ -7,7 +7,7 @@
             Move to Pilates
           </NuxtLink>
 
-          <a href="https://go.appointmentcore.com/book/LhRiN2" class="button button-nav button-demo">Book a Call</a>
+          <NuxtLink to="/appointment" class="button button-nav button-demo">Book a free 15-minute chat</NuxtLink>
         </div><!-- #end grid -->
       </div><!-- #end container -->
     </header><!-- #end site-header -->

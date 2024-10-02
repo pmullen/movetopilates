@@ -23,6 +23,12 @@ button {
 
 .button-header {
   margin-top: 1.5rem;
+  background: darken(#94BEB4, 10%);
+
+  &:focus,
+  &:hover {
+    background: darken(#94BEB4, 20%);
+  }
 }
 
 .button-secondary {

@@ -115,8 +115,8 @@ html {
 -------------------------------------------------------------- */
 .site-banner {
   //background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236a779c' fill-opacity='0.45'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  background-image: url(~/assets/img/bg-header.webp);
-  background-position: right;
+  background-image: url(~/assets/img/bg-header-04.webp);
+  background-position: right top;
   background-size: cover;
   position: relative;
 
@@ -131,7 +131,7 @@ html {
 
 .site-header-content {
   margin: 0 auto auto 0;
-  max-width: 50%;
+  max-width: 75%;
   text-align: left;
   padding: 8rem 0 6rem 0;
   position: relative;
@@ -149,9 +149,23 @@ html {
   color: white;
   font-size: 2.25rem;
   font-weight: 600;
+  line-height: 1.5;
+
+  i {
+    font-size: 1.8rem;
+    position: relative;
+    font-family: 'Merriweather';
+    font-weight: normal;
+    color: var(--secondary-color);
+
+    @media only screen and (max-width: 960px) {
+      font-size: 1.2rem;
+    }
+  }
 
   @media only screen and (max-width: 960px) {
     font-size: 1.6rem;
+    margin-bottom: 0;
   }
 }
 
