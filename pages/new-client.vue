@@ -18,7 +18,7 @@
 
           <main class="main-content">
 
-            <form name="New Client" method="POST" data-netlify="true" class="form">
+            <form name="New Client" method="POST" netlify>
               <p><label>First Name:</label>
               <input type="text" name="firstName" required></p>
               <p><label>Last Name:</label>
