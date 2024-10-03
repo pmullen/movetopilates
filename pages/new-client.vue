@@ -18,7 +18,7 @@
 
           <main class="main-content">
 
-            <form id="form" netlify>
+            <form name="New Client" method="POST" data-netlify="true" class="form">
               <p><label>First Name:</label>
               <input type="text" name="firstName" required></p>
               <p><label>Last Name:</label>
@@ -28,7 +28,7 @@
               <p><label>Phone Number:</label>
               <input type="tel" name="phoneNumber" required></p>
               <p><label>Address:</label>
-              <textarea name="address" required></textarea></p>
+              <textarea name="address" rows="2" required></textarea></p>
               <p><label>Date of Birth:</label>
               <input type="date" name="dateOfBirth" required></p>
 
@@ -111,7 +111,7 @@
     }
   }
   
-</style>'
+</style>
 
 <script>
 </script>
