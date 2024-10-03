@@ -20,17 +20,17 @@
 
             <form name="New Client" method="POST" netlify>
               <p><label>First Name:</label>
-              <input type="text" name="firstName" required></p>
+              <input type="text" name="firstName"></p>
               <p><label>Last Name:</label>
-              <input type="text" name="lastName" required></p>
+              <input type="text" name="lastName"></p>
               <p><label>Email Address:</label>
-              <input type="text" name="email" required></p>
+              <input type="text" name="email"></p>
               <p><label>Phone Number:</label>
-              <input type="text" name="phoneNumber" required></p>
+              <input type="text" name="phoneNumber"></p>
               <p><label>Address:</label>
-              <textarea name="address" rows="2" required></textarea></p>
+              <textarea name="address" rows="2"></textarea></p>
               <p><label>Date of Birth:</label>
-              <input type="date" name="dateOfBirth" required></p>
+              <input type="date" name="dateOfBirth"></p>
 
               <h3>Client History</h3>
               <p><label>Medical History:</label>
@@ -64,17 +64,17 @@
 
               <h3>Client Goals</h3>
               <p><label>Goals for the 6-week challenge:</label>
-              <textarea name="goals" required></textarea></p>
+              <textarea name="goals"></textarea></p>
 
               <h3>Emergency Contact</h3>
               <p><label>First Name:</label>
-              <input type="text" name="emergencyFirstName" required></p>
+              <input type="text" name="emergencyFirstName"></p>
               <p><label>Last Name:</label>
-              <input type="text" name="emergencyLastName" required></p>
+              <input type="text" name="emergencyLastName"></p>
               <p><label>Contact Number:</label>
-              <input type="text" name="emergencyPhoneNumber" required></p>
+              <input type="text" name="emergencyPhoneNumber"></p>
 
-              <p><input type="checkbox" name="termsAndConditions" required>
+              <p><input type="checkbox" name="termsAndConditions">
               <label> &nbsp; I understand that by submitting this form and signing up to Move-To Pilates Classes, you agree to be bound by the <a href="https://example.com/terms-and-conditions">Terms and Conditions</a> and <a href="https://example.com/liability-waiver">Liability Waiver</a>. These Terms and Conditions may change at Move-To Pilates discretion, and you may not be notified of this change.</label></p>
 
               <p><button type="submit" class="button">Submit</button></p>
