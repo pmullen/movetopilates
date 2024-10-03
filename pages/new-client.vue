@@ -5,7 +5,7 @@
       <div class="container">
       
         <div class="site-header-content">
-          <h1>Client Intake Form</h1>
+          <h1>New Client</h1>
         </div><!-- #end site-header-content -->
 
       </div><!-- #end container -->
