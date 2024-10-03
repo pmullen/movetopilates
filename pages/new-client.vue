@@ -24,9 +24,9 @@
               <p><label>Last Name:</label>
               <input type="text" name="lastName" required></p>
               <p><label>Email Address:</label>
-              <input type="email" name="email" required></p>
+              <input type="text" name="email" required></p>
               <p><label>Phone Number:</label>
-              <input type="tel" name="phoneNumber" required></p>
+              <input type="text" name="phoneNumber" required></p>
               <p><label>Address:</label>
               <textarea name="address" rows="2" required></textarea></p>
               <p><label>Date of Birth:</label>
@@ -72,7 +72,7 @@
               <p><label>Last Name:</label>
               <input type="text" name="emergencyLastName" required></p>
               <p><label>Contact Number:</label>
-              <input type="tel" name="emergencyPhoneNumber" required></p>
+              <input type="text" name="emergencyPhoneNumber" required></p>
 
               <p><input type="checkbox" name="termsAndConditions" required>
               <label> &nbsp; I understand that by submitting this form and signing up to Move-To Pilates Classes, you agree to be bound by the <a href="https://example.com/terms-and-conditions">Terms and Conditions</a> and <a href="https://example.com/liability-waiver">Liability Waiver</a>. These Terms and Conditions may change at Move-To Pilates discretion, and you may not be notified of this change.</label></p>
