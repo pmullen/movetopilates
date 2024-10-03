@@ -35,18 +35,17 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ['@nuxtjs/google-gtag', { 
+      id: 'G-BKV8SJPT0S'
+    }],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-
-  googleAnalytics: {
-    id: 'G-BKV8SJPT0S'
-  }
+  
 }

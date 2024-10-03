@@ -14,7 +14,7 @@
     "sass": "^1.79.3"
   },
   "devDependencies": {
-    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/google-gtag": "^1.0.4",
     "sass-loader": "^10.2.0"
   }
 }
