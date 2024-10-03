@@ -43,14 +43,14 @@
               <input type="radio" name="pregnancy" value="no">
               <label>No</label></p>
               <p><label>If yes, how many weeks?</label>
-              <input type="number" name="pregnancyWeeks"></p>
+              <input type="text" name="pregnancyWeeks"></p>
               <label>Are you post-natal?</label> <br />
               <p><input type="radio" name="postNatal" value="yes">
               <label>Yes &nbsp;&nbsp;</label>
               <input type="radio" name="postNatal" value="no">
               <label>No</label></p>
               <p><label>If yes, how many weeks?</label>
-              <input type="number" name="postNatalWeeks"></p>
+              <input type="text" name="postNatalWeeks"></p>
 
               <h3>Client Daily Movement</h3>
               <p><label>Current level of physical activity:</label>
@@ -77,7 +77,7 @@
               <p><input type="checkbox" name="termsAndConditions" required>
               <label> &nbsp; I understand that by submitting this form and signing up to Move-To Pilates Classes, you agree to be bound by the <a href="https://example.com/terms-and-conditions">Terms and Conditions</a> and <a href="https://example.com/liability-waiver">Liability Waiver</a>. These Terms and Conditions may change at Move-To Pilates discretion, and you may not be notified of this change.</label></p>
 
-              <p><input type="submit" value="Submit" class="button"></p>
+              <p><button type="submit" class="button">Submit</button></p>
           </form>
         </main><!-- #end main-content -->
 
