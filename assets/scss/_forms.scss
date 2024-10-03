@@ -17,6 +17,10 @@ textarea {
   font-size: 1rem;
 }
 
+input:focus {
+  background-color: lightblue;
+}
+
 form {
   button {
     margin-top: 1rem;

@@ -18,7 +18,7 @@
 
           <main class="main-content">
 
-            <form id="form" @submit.prevent="handleSubmit" netlify>
+            <form id="form" netlify>
               <p><label>First Name:</label>
               <input type="text" name="firstName" required></p>
               <p><label>Last Name:</label>
@@ -110,22 +110,8 @@
       margin-top: 4rem;
     }
   }
+  
 </style>'
 
 <script>
-  export default {
-    data() {
-      return {
-        name: "",
-      };
-    },
-    methods: {
-      handleSubmit() {
-        if (!this.name) {
-          this.$refs.nameInput.style.border = "1px solid red";
-        } else {
-        }
-      },
-    },
-  };
 </script>
