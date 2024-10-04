@@ -73,9 +73,9 @@
 
               <p>A proud, busy mum to three beautiful, wild, and wonderfully chaotic boys! I’ve always loved staying active and keeping fit, but let’s be real – once you have kids, squeezing in “me time” for exercise becomes a bit like chasing a unicorn. It’s important, yet somehow always elusive. Whether it’s school holidays, sick days, last-minute performances, or those mad dashes to grab birthday presents – there’s always something!</p>
 
-              <p>After years of teaching Pilates, I realized that mums like us need a solution that actually fits into our lives. That’s why I’ve created a home-based exercise program that’s quick, effective, and designed to help you reclaim your body – no matter how hectic things get. It's all about prioritizing yourself, even with interruptions along the way.</p>
+              <p>After years of teaching Pilates, I realised that mums like us need a solution that actually fits into our lives. That’s why I’ve created a home-based exercise program that’s quick, effective, and designed to help you reclaim your body – no matter how hectic things get. It's all about prioritizing yourself, even with interruptions along the way.</p>
 
-              <p>Book a free 15-minute chat with me to see if my program fits into your busy schedule, and together, we can work on getting you back to feeling strong, energized, and ready to take on whatever life throws your way!</p>
+              <p>Book a free 15-minute chat with me to see if my program fits into your busy schedule, and together, we can work on getting you back to feeling strong, energised, and ready to take on whatever life throws your way!</p>
 
               <p><NuxtLink to="/appointment" class="button button-cta">Book a free 15-minute chat &nbsp; &raquo;</NuxtLink></p>
 
