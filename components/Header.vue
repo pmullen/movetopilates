@@ -7,7 +7,7 @@
             Move to Pilates
           </NuxtLink>
 
-          <NuxtLink to="/appointment" class="button button-nav button-demo">Book a free 15-minute chat</NuxtLink>
+          <NuxtLink to="/appointment" class="button button-nav button-demo">Book a free 15-minute chat &nbsp; &raquo;</NuxtLink>
         </div><!-- #end grid -->
       </div><!-- #end container -->
     </header><!-- #end site-header -->
