@@ -20,9 +20,9 @@
 
             <form name="New Client" method="POST" netlify>
               <p><label>First Name</label>
-              <input type="text" name="firstName" required></p>
+              <input type="text" name="firstName" placeholder="* Required"> </p>
               <p><label>Last Name</label>
-              <input type="text" name="lastName" required></p>
+              <input type="text" name="lastName" placeholder="* Required"></p>
               <p><label>Email Address</label>
               <input type="text" name="email"></p>
               <p><label>Phone Number</label>
@@ -63,7 +63,7 @@
               <p><label>Contact Number</label>
               <input type="text" name="emergencyPhoneNumber"></p>
 
-              <p><input type="checkbox" name="termsAndConditions">
+              <p><input type="checkbox" name="termsAndConditions" required>
               <label> &nbsp; I understand that by submitting this form and signing up to Move-To Pilates’ sessions, you agree to be bound by the <a href="https://example.com/terms-and-conditions">Terms and Conditions</a> and <a href="https://example.com/liability-waiver">Liability Waiver</a>. These Terms and Conditions may change at Move-To Pilates’ discretion, and you may not be notified of this change.</label></p>
 
               <p><button type="submit" class="button">Submit</button></p>

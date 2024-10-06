@@ -21,6 +21,10 @@ input:focus {
   background-color: lightblue;
 }
 
+input::placeholder {
+  color: red;
+}
+
 form {
   button {
     margin-top: 1rem;
