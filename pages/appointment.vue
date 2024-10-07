@@ -44,7 +44,19 @@
     head: {
       script: [
         { src: 'https://go.appointmentcore.com/frontend/js/app/booking-link-embed-helper.js' }
-      ]
+      ],
+
+      title: 'Book an Appointment - Move to Pilates',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Book an Appointment - Move to Pilates'
+        }
+      ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
   }
 </script>
