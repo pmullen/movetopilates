@@ -64,7 +64,7 @@
               <input type="text" name="emergencyPhoneNumber"></p>
 
               <p><input type="checkbox" name="termsAndConditions" required>
-              <label> &nbsp; I understand that by submitting this form and signing up to Move-To Pilates’ sessions, you agree to be bound by the <a href="https://example.com/terms-and-conditions">Terms and Conditions</a> and <a href="https://example.com/liability-waiver">Liability Waiver</a>. These Terms and Conditions may change at Move-To Pilates’ discretion, and you may not be notified of this change.</label></p>
+              <label> &nbsp; I understand that by submitting this form and signing up to Move-To Pilates’ sessions, you agree to be bound by the <NuxtLink to="/terms-conditions">Terms and Conditions</NuxtLink> and <NuxtLink to="/liability">Liability Waiver</NuxtLink>. These Terms and Conditions may change at Move-To Pilates’ discretion, and you may not be notified of this change.</label></p>
 
               <p><button type="submit" class="button">Submit</button></p>
           </form>
