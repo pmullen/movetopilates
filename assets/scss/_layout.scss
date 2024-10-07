@@ -119,21 +119,13 @@ html {
   background-position: right top;
   background-size: cover;
   position: relative;
-
-  &:before {
-    background-color: #000e3699;
-    content: '';
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
 }
 
 .site-header-content {
   margin: 0 auto auto 0;
   max-width: 75%;
   text-align: left;
-  padding: 8rem 0 6rem 0;
+  padding: 6rem 0 4rem 0;
   position: relative;
   z-index: 1;
 }

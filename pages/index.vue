@@ -93,7 +93,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .price-list {
     strong {
       color: #8892af;
@@ -169,5 +169,19 @@
 
   .button-cta {
     margin-top: 2rem;
+  }
+
+  .site-banner {
+    &:before {
+      background-color: #000e3699;
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  }
+
+  .site-header-content {
+    padding: 8rem 0 6rem 0;
   }
 </style>
