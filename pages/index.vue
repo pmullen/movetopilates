@@ -82,7 +82,7 @@
             </div><!-- #end block-content -->
 
             <div class="block-media grid-order-1">
-              <img src="~/assets/img/profile.webp" class="image-plus image-plus-right image-profile" />
+              <img src="~/assets/img/profile-02.webp" class="image-plus image-plus-right image-profile" />
             </div><!-- #end block-media -->
           </div><!-- #end grid -->
 
