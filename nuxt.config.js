@@ -42,6 +42,7 @@ export default {
     ['@nuxtjs/google-gtag', { 
       id: 'G-BKV8SJPT0S'
     }],
+    '@nuxtjs/netlify-files'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
