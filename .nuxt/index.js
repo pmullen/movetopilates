@@ -13,6 +13,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_plugin_fd686d78 from 'nuxt_plugin_plugin_fd686d78' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_gtm_143e4fb0 from 'nuxt_plugin_gtm_143e4fb0' // Source: ./gtm.js (mode: 'all')
 import nuxt_plugin_googlegtag_966084ee from 'nuxt_plugin_googlegtag_966084ee' // Source: ./google-gtag.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -179,6 +180,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_fd686d78 === 'function') {
     await nuxt_plugin_plugin_fd686d78(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_gtm_143e4fb0 === 'function') {
+    await nuxt_plugin_gtm_143e4fb0(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_googlegtag_966084ee === 'function') {
