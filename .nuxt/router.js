@@ -6,8 +6,9 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _de290cde = () => interopDefault(import('../pages/appointment.vue' /* webpackChunkName: "pages/appointment" */))
 const _71eed302 = () => interopDefault(import('../pages/liability.vue' /* webpackChunkName: "pages/liability" */))
-const _17633116 = () => interopDefault(import('../pages/new-client.vue' /* webpackChunkName: "pages/new-client" */))
+const _72100f19 = () => interopDefault(import('../pages/new-client/index.vue' /* webpackChunkName: "pages/new-client/index" */))
 const _273f1088 = () => interopDefault(import('../pages/terms-conditions.vue' /* webpackChunkName: "pages/terms-conditions" */))
+const _a8cceb16 = () => interopDefault(import('../pages/new-client/restorative.vue' /* webpackChunkName: "pages/new-client/restorative" */))
 const _7af720c4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -31,12 +32,16 @@ export const routerOptions = {
     name: "liability"
   }, {
     path: "/new-client",
-    component: _17633116,
+    component: _72100f19,
     name: "new-client"
   }, {
     path: "/terms-conditions",
     component: _273f1088,
     name: "terms-conditions"
+  }, {
+    path: "/new-client/restorative",
+    component: _a8cceb16,
+    name: "new-client-restorative"
   }, {
     path: "/",
     component: _7af720c4,
