@@ -18,7 +18,7 @@
 
           <main class="main-content">
 
-            <form name="New Client" method="POST" netlify>
+            <form name="New Client - Restorative" method="POST" netlify>
               <p><label>First Name</label>
               <input type="text" name="firstName" placeholder="* Required"> </p>
               <p><label>Last Name</label>
