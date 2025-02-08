@@ -20,7 +20,7 @@
 
             <form name="New Client - Restorative" method="POST" netlify>
               <p><label>First Name</label>
-              <input type="text" name="firstName" placeholder="* Required"> </p>
+              <input type="text" name="firstName" placeholder="* Required"></p>
               <p><label>Last Name</label>
               <input type="text" name="lastName" placeholder="* Required"></p>
               <p><label>Email Address</label>
