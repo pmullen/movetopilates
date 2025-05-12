@@ -1,6 +1,5 @@
 # Redirects from what the browser requests to what we serve
 /payment https://buy.stripe.com/bIY6rQba7bcu6OsbIJ
-/intro-offer https://buy.stripe.com/7sI3fE0vt3K2c8M003
 /booking/restorative/6pm https://buy.stripe.com/4gw5nM6TReoG7SwfZ7
 /booking/restorative/7pm https://buy.stripe.com/8wMbMaba72FYb4I14e
 /booking/restorative/6pm/6weeks/ https://buy.stripe.com/cN203s3HF0xQc8McMT
