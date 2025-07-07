@@ -10,7 +10,7 @@
                 <i>With my 6 weeks <span>Energise and Revitalise</span> Challenge</i>
             </h1>
 
-            <p><NuxtLink to="/appointment" class="button button-header">Book a free 15-minute chat &nbsp; &raquo;</NuxtLink></p>
+            <p><NuxtLink to="/appointment" class="button button-header">Contact Alexis &nbsp; &raquo;</NuxtLink></p>
           </div><!-- #end site-header-content -->
  
         </div><!-- #end container -->
