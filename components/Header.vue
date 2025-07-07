@@ -7,7 +7,7 @@
             Move to Pilates
           </NuxtLink>
 
-          <NuxtLink to="/appointment" class="button button-nav button-demo">Contact Alexis &nbsp; &raquo;</NuxtLink>
+          <a href="mailto:alexis@movetopilates.com.au" class="button button-nav button-demo">Contact Alexis &nbsp; &raquo;</a>
         </div><!-- #end grid -->
       </div><!-- #end container -->
     </header><!-- #end site-header -->

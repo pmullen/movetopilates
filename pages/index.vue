@@ -10,7 +10,7 @@
                 <i>With my 6 weeks <span>Energise and Revitalise</span> Challenge</i>
             </h1>
 
-            <p><NuxtLink to="/appointment" class="button button-header">Contact Alexis &nbsp; &raquo;</NuxtLink></p>
+            <p><a href="mailto:alexis@movetopilates.com.au" class="button button-header">Contact Alexis &nbsp; &raquo;</a></p>
           </div><!-- #end site-header-content -->
  
         </div><!-- #end container -->
@@ -56,8 +56,6 @@
 
           </div><!-- #end grid -->
 
-          <p class="isolated-cta"><NuxtLink to="/appointment" class="button button-header">Book a free 15-minute chat &nbsp; &raquo;</NuxtLink></p>
-
         </div><!-- #end container -->
 
       </section><!-- #end section-featured-items -->
@@ -77,7 +75,7 @@
 
               <p>Book a free 15-minute chat with me to see if my program fits into your busy schedule, and together, we can work on getting you back to feeling strong, energised, and ready to take on whatever life throws your way!</p>
 
-              <p><NuxtLink to="/appointment" class="button button-cta">Book a free 15-minute chat &nbsp; &raquo;</NuxtLink></p>
+              <p><a href="mailto:alexis@movetopilates.com.au" class="button button-cta">Contact Alexis &nbsp; &raquo;</a></p>
 
             </div><!-- #end block-content -->
 
