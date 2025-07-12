@@ -5,9 +5,8 @@
         <div class="container">
         
           <div class="site-header-content">
-            <h1>Reclaim your body<br />
-              Live 15-minute workout at home<br />
-                <i>With my 6 weeks <span>Energise and Revitalise</span> Challenge</i>
+            <h1>Express &amp; Restorative Pilates<br />
+                <i>Introduction Offer - $50 for 3 weeks (Unlimited Classes)</i>
             </h1>
 
             <p><a href="mailto:alexis@movetopilates.com.au" class="button button-header">Contact Alexis &nbsp; &raquo;</a></p>
@@ -17,50 +16,7 @@
 
       </div><!-- #end site-banner -->
 
-      <section class="section-p section-featured-items">
-
-        <div class="container">
-
-          <h2 class="section-title">What do you get?</h2>
-
-          <div class="grid grid-3 list-benefits">
-            <div class="item-featured">
-              <h3 class="tilde">Weekly 15 Minute Online Session </h3>
-              <p>Semi-private (max. 4 people) sessions giving personalised guidance and coaching for BIG RESULTS. </p>
-            </div><!-- #end item-featured -->
-
-            <div class="item-featured">
-              <h3 class="tilde">Home Exercise Program</h3>
-              <p>Suitable to do anywhere at any time (max. 3 exercises).</p>
-            </div><!-- #end item-featured -->
-
-            <div class="item-featured">
-              <h3 class="tilde">Save Time</h3>
-              <p>Reclaim your time spent travelling, lengthy classes and schedules that don't work. </p>
-            </div><!-- #end item-featured -->
-
-            <div class="item-featured">
-              <h3 class="tilde">Feel More Energised</h3>
-              <p>Reclaim feeling energised and stressfree.</p>
-            </div><!-- #end item-featured -->
-            
-             <div class="item-featured">
-              <h3 class="tilde">SMS Accountability</h3>
-              <p>Weekly check-ins to keep you on track and motivated.</p>
-            </div><!-- #end item-featured -->
-
-            <div class="item-featured">
-              <h3 class="tilde">Greater Strength</h3>
-              <p>Get your body back into shape with greater strength.</p>
-            </div><!-- #end item-featured -->
-
-          </div><!-- #end grid -->
-
-        </div><!-- #end container -->
-
-      </section><!-- #end section-featured-items -->
-
-      <section class="section-p section-light">
+      <section class="section">
 
         <div class="container-m">
 
@@ -171,7 +127,7 @@
 
   .site-banner {
     &:before {
-      background-color: #000e3699;
+      background-color: #000e36b4;
       content: '';
       height: 100%;
       width: 100%;
@@ -187,7 +143,7 @@
 <script>
 export default {
   head: {
-    title: 'Move to Pilates - Reclaim your body | Live 15-minute workout at home | 6 weeks Energise and Revitalise Challenge',
+    title: 'Express and Restorative Pilates - Kalamunda - Move to Pilates',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
