@@ -127,7 +127,7 @@
 
   .site-banner {
     &:before {
-      background-color: #000e36b4;
+      background-color: rgb(0 14 54 / 60%);
       content: '';
       height: 100%;
       width: 100%;
