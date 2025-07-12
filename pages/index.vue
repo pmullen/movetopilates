@@ -9,7 +9,7 @@
                 <i>Introduction Offer - $50 for 3 weeks (Unlimited Classes)</i>
             </h1>
 
-            <p><a href="mailto:alexis@movetopilates.com.au" class="button button-header">Contact Alexis &nbsp; &raquo;</a></p>
+            <NuxtLink to="contact" class="button button-header">Contact Alexis &nbsp; &raquo;</NuxtLink>
           </div><!-- #end site-header-content -->
  
         </div><!-- #end container -->
@@ -31,7 +31,7 @@
 
               <p>Book a free 15-minute chat with me to see if my program fits into your busy schedule, and together, we can work on getting you back to feeling strong, energised, and ready to take on whatever life throws your way!</p>
 
-              <p><a href="mailto:alexis@movetopilates.com.au" class="button button-cta">Contact Alexis &nbsp; &raquo;</a></p>
+              <p><NuxtLink to="contact" class="button button-header">Contact Alexis &nbsp; &raquo;</NuxtLink></p>
 
             </div><!-- #end block-content -->
 
