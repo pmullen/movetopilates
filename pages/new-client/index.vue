@@ -47,11 +47,7 @@
               <textarea name="dailyMovement"></textarea></p>
 
               <h3>Client Goals</h3>
-              <p><label>Goals for the 6-week challenge</label>
-              <textarea name="goals"></textarea></p>
-
-              <h3>Home Equipment</h3>
-              <p><label>What exercise equipment do you have at home<br /><span>(i.e weights, TheraBand, massage ball, yoga ball, treadmill, bike)</span></label>
+              <p><label>Exercise Goals</label>
               <textarea name="goals"></textarea></p>
 
 
