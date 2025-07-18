@@ -194,7 +194,7 @@
         name: 'description',
         content: 'Experience Express and Restorative Pilates with Move to Pilates in Kalamunda. '
       },
-      { property: 'og:image', content: '~/assets/img/og-homepage.png' }
+      { property: 'og:image', content: 'https://movetopilates.com.au/og-homepage.png' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
