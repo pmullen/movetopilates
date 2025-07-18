@@ -205,18 +205,6 @@
         intervalId: null,
         testimonials: [
           {
-            img: quoteGill,
-            title: 'You are such a great Teacher!',
-            quote: 'Thank you for having me – you’re so professional and encouraging and you make the Pilates classes fun and non-threatening, with a clear focus of helping us get stronger!',
-            author: 'Gill C.'
-          },
-          {
-            img: quoteLisa,
-            title: '100% recommend',
-            quote: '100% recommend Alexis as a teacher! You know sometimes when you are new in a class and you have to keep bobbing your head up to see what you are meant to be doing? Well Alexis explains everything so well rarely have to do that if at all! 😻',
-            author: 'Lisa K.'
-          },
-          {
             img: quoteNat,
             title: 'Enjoyable!',
             quote: 'I’ve loved doing Pilates with Alexis. She explains things in a way that actually makes sense, and I always leave feeling stronger and more relaxed. The classes are welcoming, with no pressure, but you still feel like you’ve worked. I’ve noticed my posture and core strength improving since starting, and it’s become something I look forward to each week. Highly recommend if you want to feel good in your body again',
