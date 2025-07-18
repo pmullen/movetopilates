@@ -3,56 +3,48 @@
     "name": "appointment",
     "path": "/appointment",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/appointment.vue",
-    "chunkName": "pages/appointment",
-    "_name": "_de290cde"
+    "chunkName": "pages/appointment"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_e9fad2dc"
+    "chunkName": "pages/contact"
   },
   {
     "name": "intro-offer",
     "path": "/intro-offer",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/intro-offer.vue",
-    "chunkName": "pages/intro-offer",
-    "_name": "_4cd2c3ad"
+    "chunkName": "pages/intro-offer"
   },
   {
     "name": "liability",
     "path": "/liability",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/liability.vue",
-    "chunkName": "pages/liability",
-    "_name": "_71eed302"
+    "chunkName": "pages/liability"
   },
   {
     "name": "new-client",
     "path": "/new-client",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/new-client/index.vue",
-    "chunkName": "pages/new-client/index",
-    "_name": "_72100f19"
+    "chunkName": "pages/new-client/index"
   },
   {
     "name": "terms-conditions",
     "path": "/terms-conditions",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/terms-conditions.vue",
-    "chunkName": "pages/terms-conditions",
-    "_name": "_273f1088"
+    "chunkName": "pages/terms-conditions"
   },
   {
     "name": "new-client-restorative",
     "path": "/new-client/restorative",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/new-client/restorative.vue",
-    "chunkName": "pages/new-client/restorative",
-    "_name": "_a8cceb16"
+    "chunkName": "pages/new-client/restorative"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_7af720c4"
+    "chunkName": "pages/index"
   }
 ]

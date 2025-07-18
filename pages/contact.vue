@@ -17,22 +17,12 @@
       <div class="container-m">
 
           <main class="main-content">
+            
+            <client-only>
+              <script src="https://js-ap1.hsforms.net/forms/embed/442003764.js" defer></script>
+<div class="hs-form-frame" data-region="ap1" data-form-id="8476574d-982e-4948-b278-2358a109748d" data-portal-id="442003764"></div>
+            </client-only>
 
-            <form name="Contact Us" method="POST" netlify>
-              <p><label>First Name</label>
-              <input type="text" name="firstName" placeholder="* Required"></p>
-              <p><label>Last Name</label>
-              <input type="text" name="lastName" placeholder="* Required"></p>
-              <p><label>Email</label>
-              <input type="text" name="email" placeholder="* Required"></p>
-              <p><label>Phone Number</label>
-              <input type="text" name="phoneNumber"></p>
-              
-              <p><label>Message</label>
-              <textarea name="message"></textarea></p>
-
-              <p><button type="submit" class="button">Submit</button></p>
-          </form>
         </main><!-- #end main-content -->
 
     </div><!-- #end container -->
@@ -64,7 +54,6 @@
       margin-top: 4rem;
     }
   }
-  
 </style>
 
 <script>

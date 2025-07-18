@@ -47,10 +47,16 @@
               <textarea name="dailyMovement"></textarea></p>
 
               <h3>Client Goals</h3>
+<<<<<<< HEAD
               <p><label>Exercise Goals</label>
               <textarea name="goals"></textarea></p>
 
 
+=======
+              <p><label>Exercise Goals This Term<br /><span>(e.g. attend every class, build core strength, reduce back pain)</span></label>
+              <textarea name="goals"></textarea></p>
+
+>>>>>>> e97127430a876b59994d32189f219b4c01b2b5cd
               <h3>Emergency Contact</h3>
               <p><label>First Name</label>
               <input type="text" name="emergencyFirstName"></p>

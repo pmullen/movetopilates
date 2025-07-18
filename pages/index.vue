@@ -6,17 +6,48 @@
         
           <div class="site-header-content">
             <h1>Express &amp; Restorative Pilates<br />
-                <i>Introduction Offer - $50 for 3 weeks (Unlimited Classes)</i>
+                <i>Get unlimited classes for 3 weeks for just $50 with our introductory offer!</i>
             </h1>
 
-            <NuxtLink to="contact" class="button button-header">Contact Alexis &nbsp; &raquo;</NuxtLink>
+            <NuxtLink to="contact" class="button button-header">Get Started &nbsp; &raquo;</NuxtLink>
           </div><!-- #end site-header-content -->
  
         </div><!-- #end container -->
 
       </div><!-- #end site-banner -->
 
-      <section class="section">
+      <section class="section-p">
+
+        <div class="container-m">
+
+          <div class="carousel">
+            <div
+              v-for="(testimonial, index) in testimonials"
+              :key="index"
+              class="testimonial"
+              :class="{ active: index === currentTestimonial }"
+            >
+              <img :src="testimonial.img" :alt="testimonial.author" />
+              <p>{{ testimonial.quote }}</p>
+              <div class="author">{{ testimonial.author }}</div>
+            </div>
+
+            <div class="dots">
+              <span
+                v-for="(dot, index) in testimonials"
+                :key="index"
+                class="dot"
+                :class="{ active: index === currentTestimonial }"
+                @click="showTestimonial(index)"
+              ></span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="section-light section-p">
 
         <div class="container-m">
 
@@ -31,7 +62,7 @@
 
               <p>Book a free 15-minute chat with me to see if my program fits into your busy schedule, and together, we can work on getting you back to feeling strong, energised, and ready to take on whatever life throws your way!</p>
 
-              <p><NuxtLink to="contact" class="button button-header">Contact Alexis &nbsp; &raquo;</NuxtLink></p>
+              <p><NuxtLink to="contact" class="button button-header">Get Started &nbsp; &raquo;</NuxtLink></p>
 
             </div><!-- #end block-content -->
 
@@ -137,11 +168,20 @@
 
   .site-header-content {
     padding: 8rem 0 6rem 0;
+
+    i {
+      display: block;
+      max-width: 60%;
+    }
   }
 </style>
 
 <script>
-export default {
+  import quoteGill from '~/assets/img/quote-gill.webp'
+  import quoteLisa from '~/assets/img/quote-lisa.webp'
+  import quoteNat from '~/assets/img/quote-nat.webp'
+
+  export default {    
   head: {
     title: 'Express and Restorative Pilates - Kalamunda - Move to Pilates',
     meta: [
@@ -154,6 +194,50 @@ export default {
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+  },
+
+    data() {
+      return {
+        currentTestimonial: 0,
+        intervalId: null,
+        testimonials: [
+          {
+            img: quoteGill,
+            title: 'You are such a great Teacher!',
+            quote: 'Thank you for having me – you’re so professional and encouraging and you make the Pilates classes fun and non-threatening, with a clear focus of helping us get stronger!',
+            author: 'Gill C.'
+          },
+          {
+            img: quoteLisa,
+            title: '100% recommend',
+            quote: '100% recommend Alexis as a teacher! You know sometimes when you are new in a class and you have to keep bobbing your head up to see what you are meant to be doing? Well Alexis explains everything so well rarely have to do that if at all! 😻',
+            author: 'Lisa K.'
+          },
+          {
+            img: quoteNat,
+            title: 'Enjoyable!',
+            quote: 'I’ve loved doing Pilates with Alexis. She explains things in a way that actually makes sense, and I always leave feeling stronger and more relaxed. The classes are welcoming, with no pressure, but you still feel like you’ve worked. I’ve noticed my posture and core strength improving since starting, and it’s become something I look forward to each week. Highly recommend if you want to feel good in your body again',
+            author: 'Natalie A.'
+          }
+        ]
+      }
+    },
+    mounted() {
+      this.startCarousel()
+    },
+    beforeDestroy() {
+      clearInterval(this.intervalId)
+    },
+    methods: {
+      showTestimonial(index) {
+        this.currentTestimonial = index
+      },
+      startCarousel() {
+        this.intervalId = setInterval(() => {
+          this.currentTestimonial =
+            (this.currentTestimonial + 1) % this.testimonials.length
+        }, 6000)
+      }
+    }
   }
-}
 </script>

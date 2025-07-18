@@ -11,6 +11,7 @@
           </div><!-- #end block-content -->
 
           <div class="block-content">
+            
             <form name="contact" method="POST" data-netlify="true" class="form">
               <p>
                 <label>Name</label>  

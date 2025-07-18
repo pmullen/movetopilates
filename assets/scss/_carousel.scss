@@ -1,0 +1,67 @@
+.carousel {
+  width: 90%;
+  max-width: 900px;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.testimonial.active {
+  display: flex;
+}
+
+.testimonial img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 6px solid #4f5a7a30;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin: 0 0 20px;
+  max-width: 800px;
+}
+
+.author {
+  color: var(--primary-color);
+  font-family: 'Merriweather';
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: var(--secondary-color);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
