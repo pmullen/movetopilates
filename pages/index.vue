@@ -169,9 +169,11 @@
   .site-header-content {
     padding: 8rem 0 6rem 0;
 
-    i {
-      display: block;
-      max-width: 60%;
+    @media only screen and (min-width: 960px) {
+      i {
+        display: block;
+        max-width: 60%;
+      }
     }
   }
 </style>
