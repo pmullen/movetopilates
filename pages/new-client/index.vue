@@ -20,9 +20,9 @@
 
             <form name="New Client" method="POST" netlify>
               <p><label>First Name</label>
-              <input type="text" name="firstName" placeholder="* Required"> </p>
+              <input type="text" name="firstName"> </p>
               <p><label>Last Name</label>
-              <input type="text" name="lastName" placeholder="* Required"></p>
+              <input type="text" name="lastName"></p>
               <p><label>Email Address</label>
               <input type="text" name="email"></p>
               <p><label>Phone Number</label>
