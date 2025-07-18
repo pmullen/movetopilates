@@ -192,8 +192,9 @@
       {
         hid: 'description',
         name: 'description',
-        content: 'my website description'
-      }
+        content: 'Experience Express and Restorative Pilates with Move to Pilates in Kalamunda. '
+      },
+      { property: 'og:image', content: '~/assets/img/og-homepage.png' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
