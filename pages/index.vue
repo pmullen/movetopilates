@@ -27,8 +27,11 @@
               class="testimonial"
               :class="{ active: index === currentTestimonial }"
             >
-              <img :src="testimonial.img" :alt="testimonial.author" />
-              <p>{{ testimonial.quote }}</p>
+              <img v-if="testimonial.img"
+              :src="testimonial.img"
+              :alt="testimonial.author" />
+              <div v-html="testimonial.title"></div>
+              <div v-html="testimonial.quote"></div>
               <div class="author">{{ testimonial.author }}</div>
             </div>
 
@@ -205,10 +208,42 @@
         intervalId: null,
         testimonials: [
           {
+            img: quoteGill,
+            title: '<p><strong>You are such a great teacher!</strong></p>',
+            quote: '<p>Thank you for having me – you’re so professional and encouraging and you make the Pilates classes fun and non-threatening, with a clear focus of helping us get stronger!</p>',
+            author: 'Gill C.'
+          },
+          {
+            img: quoteLisa,
+            title: '<p><strong>100% recommend</strong></p>',
+            quote: '<p>100% recommend Alexis as a teacher! You know sometimes when you are new in a class and you have to keep bobbing your head up to see what you are meant to be doing? Well Alexis explains everything so well rarely have to do that if at all! 😻</p>',
+            author: 'Lisa K.'
+          },
+          {
             img: quoteNat,
-            title: 'Enjoyable!',
-            quote: 'I’ve loved doing Pilates with Alexis. She explains things in a way that actually makes sense, and I always leave feeling stronger and more relaxed. The classes are welcoming, with no pressure, but you still feel like you’ve worked. I’ve noticed my posture and core strength improving since starting, and it’s become something I look forward to each week. Highly recommend if you want to feel good in your body again',
+            title: '<p><strong>Enjoyable!</strong></p>',
+            quote: '<p>I’ve loved doing Pilates with Alexis. She explains things in a way that actually makes sense, and I always leave feeling stronger and more relaxed. The classes are welcoming, with no pressure, but you still feel like you’ve worked. I’ve noticed my posture and core strength improving since starting, and it’s become something I look forward to each week. Highly recommend if you want to feel good in your body again</p>',
             author: 'Natalie A.'
+          },
+          {
+            title: '<p><strong>Renewed!</strong></p>',
+            quote: '<p>Almost pain free and I know the stretches to do myself at home. Did not think I would enjoy it as much as I do - I really look forward to this class</p>',
+            author: 'April K.'
+          },
+          {
+            title: '<p><strong>No pain</strong></p>',
+            quote: '<p>Game changer for me personally. Can do things all day and not notice any pain. How relaxing the experience is.</p>',
+            author: 'Ben H.'
+          },
+          {
+            title: '<p><strong>Calm end to the weekend 🙏🏻</strong></p>',
+            quote: '<p>I have a fresh, calm end to the weekend/start to the week which I love!  Keep teaching in the dark, so lovely to switch off and just listen.</p>',
+            author: 'Chloe B.'
+          },
+          {
+            title: '<p><strong>More relaxed starting the week</strong></p>',
+            quote: "<p>My back and neck tightness is so much better and I'm so much more relaxed starting the week. I have loved these classes and am looking forward to another term of Sunday night Zen.</p>",
+            author: 'Cassie W.'
           }
         ]
       }
