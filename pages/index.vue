@@ -183,7 +183,6 @@
 
 <script>
   import quoteGill from '~/assets/img/quote-gill.webp'
-  import quoteLisa from '~/assets/img/quote-lisa.webp'
   import quoteNat from '~/assets/img/quote-nat.webp'
 
   export default {    
@@ -212,12 +211,6 @@
             title: '<p><strong>You are such a great teacher!</strong></p>',
             quote: '<p>Thank you for having me – you’re so professional and encouraging and you make the Pilates classes fun and non-threatening, with a clear focus of helping us get stronger!</p>',
             author: 'Gill C.'
-          },
-          {
-            img: quoteLisa,
-            title: '<p><strong>100% recommend</strong></p>',
-            quote: '<p>100% recommend Alexis as a teacher! You know sometimes when you are new in a class and you have to keep bobbing your head up to see what you are meant to be doing? Well Alexis explains everything so well rarely have to do that if at all! 😻</p>',
-            author: 'Lisa K.'
           },
           {
             img: quoteNat,
