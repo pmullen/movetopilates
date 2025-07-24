@@ -55,40 +55,62 @@
 </style>
 
 <script>
-  export default {
-    head: {
-      title: 'New Client - Move to Pilates',
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'New Client - Move to Pilates'
-        }
-      ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-    },
+export default {
+  head: {
+    title: 'New Client - Move to Pilates',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'New Client - Move to Pilates'
+      }
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    // Load the HubSpot embed script in the head
     script: [
       {
         charset: "utf-8",
         type: "text/javascript",
-        src: "//js-ap1.hsforms.net/forms/embed/v2.js"
-      },
-      {
-        type: "text/javascript",
-        innerHTML: `
-          hbspt.forms.create({
+        src: "//js-ap1.hsforms.net/forms/embed/v2.js",
+        async: true, // Recommended for external scripts
+        defer: true // Recommended for external scripts
+      }
+    ]
+  },
+  mounted() {
+    // Ensure hbspt is available before trying to create the form
+    // Use a setTimeout or a watcher if you face a persistent race condition,
+    // though mounted() is usually sufficient.
+    if (typeof window.hbspt !== 'undefined') {
+      window.hbspt.forms.create({
+        portalId: "442003764",
+        formId: "b0f2e865-a2ae-4544-a689-9115772a4cdb",
+        region: "ap1",
+        target: "#hubspot-form" // Specify the target div here
+      });
+    } else {
+      // Fallback/retry logic if hbspt isn't immediately available
+      // This can happen if the script is very large or network is slow.
+      // A simple setTimeout with a check is often sufficient for retries.
+      const checkHubspot = setInterval(() => {
+        if (typeof window.hbspt !== 'undefined') {
+          clearInterval(checkHubspot);
+          window.hbspt.forms.create({
             portalId: "442003764",
             formId: "b0f2e865-a2ae-4544-a689-9115772a4cdb",
             region: "ap1",
-            target: "#hubspot-form" // The target div where the form will be rendered
+            target: "#hubspot-form"
           });
-        `
-      }
-    ],
-    __dangerouslyDisableSanitizersByTagID: {
-      'id-form-script': ['innerHTML']
+        }
+      }, 200); // Check every 200ms
+      setTimeout(() => {
+          clearInterval(checkHubspot); // Stop trying after a certain time
+          console.warn("HubSpot script did not load in time.");
+      }, 5000); // Stop after 5 seconds
     }
-  }
+  },
+  // You don't need __dangerouslyDisableSanitizersByTagID for this approach
+}
 </script>
