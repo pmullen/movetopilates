@@ -184,6 +184,7 @@
 <script>
   import quoteGill from '~/assets/img/quote-gill.webp'
   import quoteNat from '~/assets/img/quote-nat.webp'
+  import quoteLisa from '~/assets/img/quote-lisa.webp'
 
   export default {    
   head: {
