@@ -219,6 +219,12 @@
             author: 'Natalie A.'
           },
           {
+          img: quoteLisa,
+            title: '<p><strong>100% recommend</strong></p>',
+            quote: '<p>100% recommend Alexis as a teacher! You know sometimes when you are new in a class and you have to keep bobbing your head up to see what you are meant to be doing? Well Alexis explains everything so well rarely have to do that if at all! 😻</p>',
+            author: 'Lisa K.'
+          },
+          {
             title: '<p><strong>Renewed!</strong></p>',
             quote: '<p>Almost pain free and I know the stretches to do myself at home. Did not think I would enjoy it as much as I do - I really look forward to this class</p>',
             author: 'April K.'
