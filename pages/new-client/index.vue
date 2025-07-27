@@ -18,51 +18,8 @@
 
           <main class="main-content">
 
-            <form name="New Client" method="POST" netlify>
-              <p><label>First Name</label>
-              <input type="text" name="firstName" placeholder="* Required"> </p>
-              <p><label>Last Name</label>
-              <input type="text" name="lastName" placeholder="* Required"></p>
-              <p><label>Email Address</label>
-              <input type="text" name="email"></p>
-              <p><label>Phone Number</label>
-              <input type="text" name="phoneNumber"></p>
-              <p><label>Address</label>
-              <textarea name="address" rows="2"></textarea></p>
-              <p><label>Date of Birth</label>
-              <input type="date" name="dateOfBirth"></p>
+            <div id="hubspot-form"></div>
 
-              <h3>Client History</h3>
-              <p><label>Relevant Medical History <br /> <span>(i.e Injuries, surgeries, medical plans, general aches & pains, pregnant, post-natal)</span></label>
-              <textarea name="medicalHistory"></textarea></p>
-              <p><label>Relevant Medication</label>
-              <textarea name="medication"></textarea></p>
-
-              <h3>Client Daily Movement</h3>
-              <p><label>Current Exercise</label>
-              <textarea name="physicalActivity"></textarea></p>
-              <p><label>Occupation<br /><span>(i.e stay at home mum, part time or part-time/full time work)</span></label>
-              <input type="text" name="occupation"></p>
-              <p><label>Physical movement required for occupation<br /><span>(i.e running around after kids all day, waitressing tables, computer work, combination)</span></label>
-              <textarea name="dailyMovement"></textarea></p>
-
-              <h3>Client Goals</h3>
-              <p><label>Exercise Goals This Term<br /><span>(e.g. attend every class, build core strength, reduce back pain)</span></label>
-              <textarea name="goals"></textarea></p>
-
-              <h3>Emergency Contact</h3>
-              <p><label>First Name</label>
-              <input type="text" name="emergencyFirstName"></p>
-              <p><label>Last Name</label>
-              <input type="text" name="emergencyLastName"></p>
-              <p><label>Contact Number</label>
-              <input type="text" name="emergencyPhoneNumber"></p>
-
-              <p><input type="checkbox" name="termsAndConditions" required>
-              <label> &nbsp; I understand that by submitting this form and signing up to Move-To Pilates’ sessions, you agree to be bound by the <a href="/terms-conditions" target="_blank">Terms and Conditions</a> and <a href="/liability" target="_blank">Liability Waiver</a>. These Terms and Conditions may change at Move-To Pilates’ discretion, and you may not be notified of this change.</label></p>
-
-              <p><button type="submit" class="button">Submit</button></p>
-          </form>
         </main><!-- #end main-content -->
 
     </div><!-- #end container -->
@@ -98,19 +55,62 @@
 </style>
 
 <script>
-  export default {
-    head: {
-      title: 'New Client - Move to Pilates',
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'New Client - Move to Pilates'
+export default {
+  head: {
+    title: 'New Client - Move to Pilates',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'New Client - Move to Pilates'
+      }
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    // Load the HubSpot embed script in the head
+    script: [
+      {
+        charset: "utf-8",
+        type: "text/javascript",
+        src: "//js-ap1.hsforms.net/forms/embed/v2.js",
+        async: true, // Recommended for external scripts
+        defer: true // Recommended for external scripts
+      }
+    ]
+  },
+  mounted() {
+    // Ensure hbspt is available before trying to create the form
+    // Use a setTimeout or a watcher if you face a persistent race condition,
+    // though mounted() is usually sufficient.
+    if (typeof window.hbspt !== 'undefined') {
+      window.hbspt.forms.create({
+        portalId: "442003764",
+        formId: "b0f2e865-a2ae-4544-a689-9115772a4cdb",
+        region: "ap1",
+        target: "#hubspot-form" // Specify the target div here
+      });
+    } else {
+      // Fallback/retry logic if hbspt isn't immediately available
+      // This can happen if the script is very large or network is slow.
+      // A simple setTimeout with a check is often sufficient for retries.
+      const checkHubspot = setInterval(() => {
+        if (typeof window.hbspt !== 'undefined') {
+          clearInterval(checkHubspot);
+          window.hbspt.forms.create({
+            portalId: "442003764",
+            formId: "b0f2e865-a2ae-4544-a689-9115772a4cdb",
+            region: "ap1",
+            target: "#hubspot-form"
+          });
         }
-      ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+      }, 200); // Check every 200ms
+      setTimeout(() => {
+          clearInterval(checkHubspot); // Stop trying after a certain time
+          console.warn("HubSpot script did not load in time.");
+      }, 5000); // Stop after 5 seconds
     }
-  }
+  },
+  // You don't need __dangerouslyDisableSanitizersByTagID for this approach
+}
 </script>

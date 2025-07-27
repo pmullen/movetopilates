@@ -7,7 +7,7 @@
             Move to Pilates
           </NuxtLink>
 
-          <NuxtLink to="contact" class="button button-nav button-demo">Contact Alexis &nbsp; &raquo;</NuxtLink>
+          <NuxtLink to="contact" class="button button-nav button-demo">Get Started &nbsp; &raquo;</NuxtLink>
         </div><!-- #end grid -->
       </div><!-- #end container -->
     </header><!-- #end site-header -->

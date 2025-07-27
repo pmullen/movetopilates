@@ -144,21 +144,20 @@ html {
   line-height: 1.5;
 
   i {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     position: relative;
     font-family: 'Merriweather';
     font-weight: normal;
     color: var(--secondary-color);
-    line-height: 1.25;
 
     @media only screen and (max-width: 960px) {
       font-size: 1.2rem;
-      line-height: 1.25;
     }
   }
 
   @media only screen and (max-width: 960px) {
     font-size: 1.6rem;
+    line-height: 1.25;
     margin-bottom: 0;
   }
 }
@@ -206,4 +205,8 @@ html {
 .isolated-cta {
   text-align: center;
   margin: 3rem 0 0 0;
+}
+
+#hs-form-virality-container {
+  display: none !important;
 }

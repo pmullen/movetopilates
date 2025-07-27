@@ -6,11 +6,11 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _de290cde = () => interopDefault(import('../pages/appointment.vue' /* webpackChunkName: "pages/appointment" */))
 const _e9fad2dc = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _4cd2c3ad = () => interopDefault(import('../pages/intro-offer.vue' /* webpackChunkName: "pages/intro-offer" */))
 const _71eed302 = () => interopDefault(import('../pages/liability.vue' /* webpackChunkName: "pages/liability" */))
 const _72100f19 = () => interopDefault(import('../pages/new-client/index.vue' /* webpackChunkName: "pages/new-client/index" */))
 const _273f1088 = () => interopDefault(import('../pages/terms-conditions.vue' /* webpackChunkName: "pages/terms-conditions" */))
 const _a8cceb16 = () => interopDefault(import('../pages/new-client/restorative.vue' /* webpackChunkName: "pages/new-client/restorative" */))
+const _668a3fc1 = () => interopDefault(import('../pages/timetable/term-3/index.vue' /* webpackChunkName: "pages/timetable/term-3/index" */))
 const _7af720c4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -33,10 +33,6 @@ export const routerOptions = {
     component: _e9fad2dc,
     name: "contact"
   }, {
-    path: "/intro-offer",
-    component: _4cd2c3ad,
-    name: "intro-offer"
-  }, {
     path: "/liability",
     component: _71eed302,
     name: "liability"
@@ -52,6 +48,10 @@ export const routerOptions = {
     path: "/new-client/restorative",
     component: _a8cceb16,
     name: "new-client-restorative"
+  }, {
+    path: "/timetable/term-3",
+    component: _668a3fc1,
+    name: "timetable-term-3"
   }, {
     path: "/",
     component: _7af720c4,

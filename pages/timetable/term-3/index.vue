@@ -5,7 +5,7 @@
       <div class="container">
       
         <div class="site-header-content">
-          <h1>Contact Us</h1>
+          <h1>Timetable - Term 3</h1>
         </div><!-- #end site-header-content -->
 
       </div><!-- #end container -->
@@ -17,19 +17,16 @@
       <div class="container-m">
 
           <main class="main-content">
-            
-            <client-only>
-              <script src="https://js-ap1.hsforms.net/forms/embed/442003764.js" defer></script>
-<div class="hs-form-frame" data-region="ap1" data-form-id="8476574d-982e-4948-b278-2358a109748d" data-portal-id="442003764"></div>
-            </client-only>
+
+            <img src="https://info.movetopilates.com.au/hubfs/Timetable%20-%20Weekly%20Pilates%20(WEBP).webp" alt="Timetable - Term 3 - Move to Pilates">
 
         </main><!-- #end main-content -->
 
-    </div><!-- #end container -->
+      </div><!-- #end container -->
 
-  </section><!-- #end section-introduction -->
+    </section><!-- #end section-introduction -->
 
-  </div>
+</div>
 </template>
 
 <style lang="scss" scoped>
@@ -38,9 +35,6 @@
   }
 
   .main-content {
-    max-width: 600px;
-    margin: 0 auto;
-
     h1, h2, h3, h4 {
       margin-top: 2rem;
     }
@@ -50,8 +44,7 @@
     }
 
     h3 {
-      color: var(--secondary-color);
-      margin-top: 4rem;
+      color: var(--secondary-color)
     }
   }
 </style>
@@ -59,15 +52,16 @@
 <script>
   export default {
     head: {
-      title: 'Contact Alexis - Move to Pilates',
+      title: 'Timetable - Term 3 - Move to Pilates',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           hid: 'description',
           name: 'description',
-          content: 'Contact Alexis - Move to Pilates'
-        }
+          content: 'Timetable - Term 3 - Move to Pilates'
+        },
+        { property: 'og:image', content: 'https://movetopilates.com.au/og-homepage.png' }
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
