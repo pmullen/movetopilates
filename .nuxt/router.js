@@ -8,7 +8,9 @@ const _de290cde = () => interopDefault(import('../pages/appointment.vue' /* webp
 const _e9fad2dc = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _71eed302 = () => interopDefault(import('../pages/liability.vue' /* webpackChunkName: "pages/liability" */))
 const _72100f19 = () => interopDefault(import('../pages/new-client/index.vue' /* webpackChunkName: "pages/new-client/index" */))
+const _351c6190 = () => interopDefault(import('../pages/pricing.vue' /* webpackChunkName: "pages/pricing" */))
 const _273f1088 = () => interopDefault(import('../pages/terms-conditions.vue' /* webpackChunkName: "pages/terms-conditions" */))
+const _36a8a8d6 = () => interopDefault(import('../pages/timetable/index.vue' /* webpackChunkName: "pages/timetable/index" */))
 const _a8cceb16 = () => interopDefault(import('../pages/new-client/restorative.vue' /* webpackChunkName: "pages/new-client/restorative" */))
 const _668a3fc1 = () => interopDefault(import('../pages/timetable/term-3/index.vue' /* webpackChunkName: "pages/timetable/term-3/index" */))
 const _7af720c4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -41,9 +43,17 @@ export const routerOptions = {
     component: _72100f19,
     name: "new-client"
   }, {
+    path: "/pricing",
+    component: _351c6190,
+    name: "pricing"
+  }, {
     path: "/terms-conditions",
     component: _273f1088,
     name: "terms-conditions"
+  }, {
+    path: "/timetable",
+    component: _36a8a8d6,
+    name: "timetable"
   }, {
     path: "/new-client/restorative",
     component: _a8cceb16,

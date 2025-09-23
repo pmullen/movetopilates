@@ -3,48 +3,70 @@
     "name": "appointment",
     "path": "/appointment",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/appointment.vue",
-    "chunkName": "pages/appointment"
+    "chunkName": "pages/appointment",
+    "_name": "_de290cde"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/contact.vue",
-    "chunkName": "pages/contact"
+    "chunkName": "pages/contact",
+    "_name": "_e9fad2dc"
   },
   {
     "name": "liability",
     "path": "/liability",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/liability.vue",
-    "chunkName": "pages/liability"
+    "chunkName": "pages/liability",
+    "_name": "_71eed302"
   },
   {
     "name": "new-client",
     "path": "/new-client",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/new-client/index.vue",
-    "chunkName": "pages/new-client/index"
+    "chunkName": "pages/new-client/index",
+    "_name": "_72100f19"
+  },
+  {
+    "name": "pricing",
+    "path": "/pricing",
+    "component": "/Users/pete/Documents/www/movetopilates.studio/pages/pricing.vue",
+    "chunkName": "pages/pricing",
+    "_name": "_351c6190"
   },
   {
     "name": "terms-conditions",
     "path": "/terms-conditions",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/terms-conditions.vue",
-    "chunkName": "pages/terms-conditions"
+    "chunkName": "pages/terms-conditions",
+    "_name": "_273f1088"
+  },
+  {
+    "name": "timetable",
+    "path": "/timetable",
+    "component": "/Users/pete/Documents/www/movetopilates.studio/pages/timetable/index.vue",
+    "chunkName": "pages/timetable/index",
+    "_name": "_36a8a8d6"
   },
   {
     "name": "new-client-restorative",
     "path": "/new-client/restorative",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/new-client/restorative.vue",
-    "chunkName": "pages/new-client/restorative"
+    "chunkName": "pages/new-client/restorative",
+    "_name": "_a8cceb16"
   },
   {
     "name": "timetable-term-3",
     "path": "/timetable/term-3",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/timetable/term-3/index.vue",
-    "chunkName": "pages/timetable/term-3/index"
+    "chunkName": "pages/timetable/term-3/index",
+    "_name": "_668a3fc1"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/pete/Documents/www/movetopilates.studio/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_7af720c4"
   }
 ]
