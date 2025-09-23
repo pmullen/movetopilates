@@ -83,7 +83,7 @@ a {
   text-decoration: none;
 }
 
-a:not(.button):not(.site-logo) {
+a:not(.button):not(.site-logo):not(.nav-link) {
   &:hover,
   &:focus {
     color: darken(#94BEB4, 10%);
