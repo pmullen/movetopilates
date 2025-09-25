@@ -59,13 +59,13 @@
             <div class="block-content grid-order-2">
               <h2>Hello, I'm Alexis!</h2>
 
-              <p>A proud, busy mum to three beautiful, wild, and wonderfully chaotic boys! I’ve always loved staying active and keeping fit, but let’s be real – once you have kids, squeezing in “me time” for exercise becomes a bit like chasing a unicorn. It’s important, yet somehow always elusive. Whether it’s school holidays, sick days, last-minute performances, or those mad dashes to grab birthday presents – there’s always something!</p>
+              <p>I’m a proud (and busy!) mum of three beautiful, wild, and wonderfully chaotic boys. I’ve always loved staying active and keeping fit, but let’s be real – once you have kids, finding time for yourself can feel like chasing a unicorn. You know it’s important, but between school holidays, sick days, last-minute performances, and those mad dashes for birthday presents… it always seems to slip away.</p>
 
-              <p>After years of teaching Pilates, I realised that mums like us need a solution that actually fits into our lives. That’s why I’ve created a home-based exercise program that’s quick, effective, and designed to help you reclaim your body – no matter how hectic things get. It's all about prioritizing yourself, even with interruptions along the way.</p>
+              <p>After years of teaching Pilates, I realised mums like us need a solution that actually works around real life. That’s why I created Express Pilates – 30-minute classes designed to be quick, effective, and realistic. These sessions help you reclaim your body, boost your energy, and prioritise yourself – even when life throws interruptions your way.</p>
 
-              <p>Book a free 15-minute chat with me to see if my program fits into your busy schedule, and together, we can work on getting you back to feeling strong, energised, and ready to take on whatever life throws your way!</p>
+              <p>If you’d like to see how this can fit into your busy schedule, reach out to me. Together, we’ll get you feeling stronger, more energised, and ready for whatever life has in store.</p>
 
-              <p><NuxtLink to="contact" class="button button-header">Get Started &nbsp; &raquo;</NuxtLink></p>
+              <p><NuxtLink to="contact" class="button button-header">Contact Me &nbsp; &raquo;</NuxtLink></p>
 
             </div><!-- #end block-content -->
 
