@@ -52,7 +52,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     ['@nuxtjs/google-gtag', { 
-      id: 'G-BKV8SJPT0S'
+      id: 'G-L8VVNMN7LB'
     }],
     '@nuxtjs/netlify-files',
     '@nuxtjs/gtm'
